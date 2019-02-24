@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sheffmachine"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "microservice",
+    "baseName": "blog",
+    "packageName": "com.sheffmachine",
+    "packageFolder": "com/sheffmachine",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZWRmNzk4OWQ2NGU3YjczY2YyNzYwZjE3OGEzNDA0NzNiNTMyNzA0N2RjOWI2ZTk0Mjc4ZTk5YTljMzRjNGIyMGQ1YmUwMmQzZmFmMmUwNzRlZDI5N2Y1MzEzNTY1NjNhZWM3YTllYmQ5MmI4NGI3YzBhNDViMjgwMWExYTcwY2Q=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
